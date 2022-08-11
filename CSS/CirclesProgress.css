@@ -1,0 +1,567 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* =Circle 1 (card1) ----------------*/
+
+
+
+.FirstCircularProgress1 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -15px;
+  
+  
+
+}
+
+.FirstCircularProgress1:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+}
+
+.valueFirstCircle1 {
+  position: relative;
+  color: white;
+  
+}
+
+p.NEF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 0.8rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+
+
+/* =Circle 2 (card1) ----------------*/
+
+
+
+.SecondCircularProgress1 {
+   position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -8px;
+}
+
+.SecondCircularProgress1:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+  ;
+}
+
+
+
+.valueSecondCircle1 {
+  position: relative;  
+  color: white;
+
+}
+
+p.PED {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 0.8rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+
+
+/* =Circle 1 (card1b) ----------------*/
+
+
+
+
+
+.FirstCircularProgress1b {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -15px;
+}
+
+.FirstCircularProgress1b:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+}
+
+.valueFirstCircle1b {
+  display: none;
+  
+}
+
+p.NEF1b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 1.4rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+p.NEF1b.active{
+  color: #000;
+  background: #00ebca;
+  border: #00ebca;
+}
+
+
+
+
+/* =Circle 2 (card1b) ----------------*/
+
+
+
+.SecondCircularProgress1b {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -9px;
+}
+
+.SecondCircularProgress1b:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+  
+}
+
+
+
+.valueSecondCircle1b {
+  display: none;
+
+}
+
+p.PED1b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 1.4rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+/*------Circle 1 (card2) ----------------*/
+
+
+
+.FirstCircularProgress2 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -15px;
+  
+  
+
+}
+
+.FirstCircularProgress2:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+}
+
+.valueFirstCircle2 {
+  position: relative;  
+  color: white;
+}
+
+p.REU {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 0.8rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+
+
+/*------ Circle 2 (card2) ----------------*/
+
+
+.SecondCircularProgress2 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -8px;
+  
+}
+
+.SecondCircularProgress2:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+  
+}
+
+
+
+.valueSecondCircle2 {
+  position: relative;  
+  color: white;
+
+}
+
+p.OBS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 0.8rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+
+
+
+/* =Circle 1 (card2b) ----------------*/
+
+
+
+
+
+.FirstCircularProgress2b {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -15px;
+}
+
+.FirstCircularProgress2b:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+}
+
+.valueFirstCircle2b {
+  display: none;
+}
+
+p.REU2b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 1.4rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+
+
+/* =Circle 2 (card2b) ----------------*/
+
+
+
+
+.SecondCircularProgress2b { 
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -8px;
+}
+
+.SecondCircularProgress2b:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+  
+}
+
+
+
+.valueSecondCircle2b {
+  display: none;
+
+}
+
+p.OBS2b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 1.4rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+/*------Circle 1 (card3) ----------------*/
+
+
+
+.FirstCircularProgress3 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -15px;
+}
+
+.FirstCircularProgress3:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+}
+
+.valueFirstCircle3 {
+  position: relative;  
+  color: white;
+}
+
+p.NEF2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 0.8rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+
+
+/*------ Circle 2 (card3) ----------------*/
+
+
+
+.SecondCircularProgress3 {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -8px;
+}
+
+.SecondCircularProgress3:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+  ;
+}
+
+
+
+.valueSecondCircle3 {
+  position: relative;  
+  color: white;
+
+}
+
+p.CIR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 0.8rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+
+/* =Circle 1 (card3b) ----------------*/
+
+
+
+
+
+.FirstCircularProgress3b {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -15px;
+}
+
+.FirstCircularProgress3b:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+}
+
+.valueFirstCircle3b {
+  display: none;
+}
+
+p.NEF23b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 1.4rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}
+
+
+
+
+/* =Circle 2 (card3b) ----------------*/
+
+
+
+
+.SecondCircularProgress3b {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin:10px auto;
+  left: -8px;
+}
+
+.SecondCircularProgress3b:before {
+  content: "";
+  position: absolute;
+  height: 92%;
+  width: 92%;
+  background-color: #070e0e;
+  border-radius: 50%;
+  
+}
+
+
+
+.valueSecondCircle3b {
+  display: none;
+
+}
+
+p.CIR3b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.6rem;
+  color: white;
+  margin-top: 1.4rem;
+  margin-left: -0.2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 2;
+}

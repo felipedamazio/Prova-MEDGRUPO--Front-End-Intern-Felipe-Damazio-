@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/* CARD 1 ------------------------------------------------- */
+
+#flip-card1 {
+   
+    display: flex;
+    justify-content:center;     
+    width:100vw; 
+}
+
+.card1 {
+    background: #070e0e;
+    display: flex;  
+    border-radius: 65px 178px 178px 65px;
+   
+     
+}
+
+.conteudo1 {
+    position: relative;
+    height: 100px;
+    width: 100px;    
+    display: flex;             
+  
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-left: 0.5rem;
+
+}
+
+p.texto1 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+span.semana1 {
+    font-size: 1.5rem;
+    display: block;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 0.2rem;
+
+}
+
+
+#button1 .fa-solid {
+    display: flex;
+    color: #00f4d1;
+    margin-left: 0px;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 26px;
+    width: 27px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+
+/* CARD 1b --------------------- */
+
+
+.card1b {
+    background: #070e0e;
+    border-radius: 65px 178px 178px 65px;
+    display: flex;
+    margin-top: 0px;
+    
+}
+
+.card1b.active {
+    background-color: #005c49;
+}
+
+.conteudo1b {
+    position: relative;
+    height: 100px;
+    width: 100px;    
+    display: flex;   
+    
+
+}
+
+.text1b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-left: 0.5rem;
+
+}
+
+p.texto1b {
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+data.semana1b {
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 0.2rem;
+}
+
+
+
+#button1b .fa-solid {
+    display: flex;
+    color: #00f4d1;
+    margin-left: 0px;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 26px;
+    width: 27px;
+    align-items: center;
+    justify-content: center;
+    margin: top 10px;
+
+}
+
+/*icon*/
+.icon.fa-solid {
+    display: flex;
+    color: #00f4d1;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    background: #000;
+
+}
+
+/* CARD 2-----------------------*/
+
+#flip-card2 {
+
+    display: flex;
+    justify-content: center; 
+    width:100vw ;       
+    
+
+}
+
+.card2 {
+    background: #070e0e;
+    border-radius: 65px 178px 178px 65px;
+    display: flex;
+    
+
+}
+
+.card2.active {
+    background-color: #005c49;
+}
+
+.conteudo2 {
+    position: relative;
+    height: 100px;
+    width: 100px;    
+    display: flex;   
+    
+
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-left: 0.5rem;
+
+}
+
+p.texto2 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+span.semana2 {
+    font-size: 1.5rem;
+    display: block;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 0.2rem;
+}
+
+
+
+#button2 .fa-solid {
+    display: flex;
+    color: #00f4d1;
+    margin-left: 0px;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 26px;
+    width: 27px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+/* CARD 2b ----------------------*/
+
+.card2b {
+    background: #070e0e;
+    border-radius: 65px 178px 178px 65px;
+    display: flex;
+    
+
+}
+
+.card2b.active {
+    background-color: #005c49;
+}
+
+.conteudo2b {
+    position: relative;
+    height: 100px;
+    width: 100px;    
+    display: flex;   
+    
+}
+
+.text2b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+p.texto2b {
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+data.semana2b {
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 0.2rem;
+}
+
+
+
+#button2b .fa-solid {
+    display: flex;
+    color: #00f4d1;
+    margin-left: 0px;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 26px;
+    width: 27px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+/* CARD 3b ----------------------*/
+
+#flip-card3 {
+
+    display: flex;
+    justify-content: center; 
+    width:100vw ; 
+    
+
+}
+
+.card3 {
+    background: #070e0e;
+    border-radius: 65px 178px 178px 65px;
+    display: flex;
+   
+
+}
+
+.card3.active {
+    background-color: #005c49;
+}
+
+.conteudo3 {
+    position: relative;
+    height: 100px;
+    width: 100px;    
+    display: flex;   
+    
+
+
+}
+
+.text3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-left: 0.5rem;
+
+}
+
+p.texto3 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+span.semana3 {
+    font-size: 1.5rem;
+    display: block;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 0.2rem;
+}
+
+
+
+#button3 .fa-solid {
+    display: flex;
+    color: #00f4d1;
+    margin-left: 0px;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 26px;
+    width: 27px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+/* CARD 3b ----------------*/
+
+
+.card3b {
+    background: #070e0e;
+    border-radius: 65px 178px 178px 65px;
+    display: flex;
+    
+
+}
+
+.card3b.active {
+    background-color: #005c49;
+}
+
+.conteudo3b {
+    position: relative;
+    height: 100px;
+    width: 100px;    
+    display: flex;   
+
+}
+
+.text3b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    margin-left: 0.5rem;
+}
+
+p.texto3b {
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+
+data.semana3b {
+    font-size: 1.2rem;
+    display: block;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 0.2rem;
+}
+
+
+
+#button3b .fa-solid {
+    display: flex;
+    color: #00f4d1;
+    margin-left: 0px;
+    border: 2px solid;
+    border-radius: 50%;
+    height: 26px;
+    width: 27px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+/* Master button Style ----------------*/
